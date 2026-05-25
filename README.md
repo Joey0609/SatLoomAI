@@ -101,33 +101,3 @@ AI 会向您展示变更摘要，您可以打开 aidiff 生成的 HTML 文件逐
 | `POST /v1/admin/shutdown` | 关闭服务 |
 
 详细文档见 `server/README.md`。
-
----
-
-## 注意事项
-
-- **凭证安全**：账号密码明文保存在 `server/credentials.json`（已加入 `.gitignore`），请勿误提交
-- **Cloudflare/WAF**：若 Wiki 站点开启了浏览器挑战，需要在站点侧按源 IP 放行，否则 API 调用会返回 403
-- **时间基准**：卫星百科使用**世界时（UTC）**
-- **版权**：严禁大段引用百度百科等版权私有站点的内容
-
----
-
-## 仓库命名
-
-当前仓库名为 **SatLoomAI**，含义：
-- **Sat** — 卫星（Satellite），指向 sat.huijiwiki.com 卫星百科
-- **Loom** — 织机/若隐若现，暗喻将多源数据编织为完整的词条
-- **AI** — AI 驱动的工作流
-
-如果您希望换一个名字，备选方案：
-
-| 名称 | 含义 |
-|---|---|
-| **OrbitWrite** | orbit（轨道）+ write（写作），轨道上的自动写作 |
-| **SatWeave** | sat + weave（编织），将数据编织为词条 |
-| **AstroPatch** | astro + patch（补丁/补片），像航天器补丁一样精细修补词条 |
-| **WikiOrbit** | wiki + orbit，在轨运行的 Wiki 工具链 |
-| **SatBot** | 直白明了，卫星百科机器人 |
-
-个人推荐保留 **SatLoomAI**，它已经准确地表达了项目的三层含义（卫星 × 编织 × AI），且不与现有知名项目重名。
