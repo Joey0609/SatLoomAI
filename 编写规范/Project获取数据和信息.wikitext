@@ -1,0 +1,93 @@
+{{指南/编辑者导航}}
+目前已经有一些网站/自媒体收集了众多航天器的信息。可以参考他们的论述而编辑词条。但是，在迁移和编辑的过程中，需要仔细核查原文参考引用的正确性和权威性。
+
+常用网站：
+* [https://www.wikipedia.org 维基百科]（不解释）
+* [https://space.skyrocket.de/index.html Gunter's Space Page]（不解释）
+* [https://www.kozmo-data.sk/ Vesmírna databáza]（斯洛伐克的卫星百科，很强）
+* [https://www.raumfahrtkalender.de/ raumfahrtkalender]（航天发射的编年体记录，德语）
+* [https://spacemapper.cn/ 太空地图]（航天器轨道与基本情况，由中国人开发）
+* [https://weebau.com/ WEEBAU SPACE ENCYCLOPEDIA]（和Gunter是竞争对手一般的存在）
+* [https://discosweb.esoc.esa.int Discosweb-ESA]（需要注册账号）
+* [http://www.tbs-satellite.com/tse/online/ Satellite Encyclopedia]（字面意义上的“卫星百科”）
+* [https://www.ucsusa.org/resources/satellite-database UCS卫星数据库]（表格形式，有轨道根数）
+* [https://planet4589.org/space/gcat/data/derived/launchlog.html Jonathan's Space - 发射记录]以及它的[https://planet4589.org/index.html 主页]
+* [https://directory.eoportal.org/web/eoportal/home eoPortal Directory]
+* [https://www.nanosats.eu/ Nanosats Database]
+* [http://www.spacefacts.de/ spacefacts]（专注宇航员）
+* [https://everydayastronaut.com/ 每日宇航员]
+* [http://www.b14643.eu/ b14643.eu]（收录各国火箭数据）
+* [https://rockets.andegraf.com rockets.andegraf.com]（收录各国火箭数据，有清楚的结构图）
+* [https://www.nasaspaceflight.com/ nasaspaceflight]（一个重要的航天科普机构，新闻做的很好）
+
+可以参考的国内网站：
+* [http://www.cmse.gov.cn/ 中国载人航天官方网站]
+* [http://www.geosatdb.cn/ 全球民用地球观测卫星语义数据库（清华大学主建）]
+* [http://sjzk.spacespecial.com.cn/h5/index.html#/ 中国航天科学技术知识库]
+* [http://www.spacemore.com.cn/Home/Index 中国航天科普网]
+* [https://www.srmcad.com/ 天弓动力]（主要聚焦于固体火箭发动机）
+* [https://nadc.china-vo.org/ 国家天文科学数据中心]（可以找到各种译名、望远镜、火星地图之类的数据）
+* [https://www.cpeos.org.cn 国家遥感数据与应用服务平台]（依据经纬度查找覆盖该位置的卫星信息）
+* [https://moon.bao.ac.cn/ 月球与行星数据发布系统]
+* [http://dsel.cc/#/spaceFile/index 深空探测实验室]
+* [https://beidou.space/ 中国卫星数据详情]
+* [https://www.chinaerospace.com/ 航空航天产业数据]
+* [http://www.chinaspacenews.com.cn/ 中国航天新闻]
+
+可以参考的国外网站：
+* [https://everydayastronaut.com/ 每日宇航员]
+* [https://spaceflight101.com/ 宇航101]
+* [https://satsearch.co/ 卫星搜索]（航空航天产业数据）
+* [https://www.cosmonoticias.org/ 空间新闻]（西班牙语）
+* [https://orbita.zenite.nu/ 轨道顶点]（葡萄牙语）
+* [https://uchubiz.com/ uchubiz]（日语）
+* [https://www.factoriesinspace.com/ 太空制造业大全]（太空制造项目统计）
+* [https://space.fandom.com/ 宇宙维基]
+* [https://kdocs.cn/l/cgVoJLGORvR8 Starbase Dashboard]
+* [http://www.buran.ru/htm/gubanov5.htm buran] [[能源号]]总师[[鲍里斯·伊万诺维奇·古巴诺夫]]写的《能源号的成功与悲剧-总师的思考》，里面有大量苏联时期的文件，精通俄语的同志可以去看看。
+
+此外，各国的官方新闻媒体网站都是可以参考的消息来源。
+
+发射预报（国外）：
+* [https://www.spacelive.cn spacelive （发射统计齐全）]
+* [https://www.rocketlaunch.live/ Launch Schedule]
+* [https://nextspaceflight.com/ nextspaceflight]
+
+查询卫星实时状态：
+* [https://www.sasclouds.com/chinese/home 自然资源卫星遥感云服务平台]
+* [https://www.satcat.com satcat]
+* [https://www.space-track.org/ space track]
+* [https://www.heavens-above.com/main.aspx HEAVENS-ABOVE]（也有同名App）
+* [https://in-the-sky.org/ In-the-sky] 
+* [https://www.n2yo.com/ n2yo]（有广告）
+* [http://celestrak.org/ celestrak]（卫星、太空垃圾，碰撞预警）
+* [https://app.keeptrack.space/?sat=50777 keeptrack]（可视化展示卫星）
+
+专门针对苏联航天的网站：
+* [https://www.russianspaceweb.com russianspaceweb]
+* [http://galspace.spb.ru/ Galspace]（俄语）
+* [http://mentallandscape.com/ Don P. Mitchell Homepage]
+* [http://www.lpre.de/ lpre]（苏俄火箭发动机公开信息）
+
+NASA门户以及周边：
+* [https://www.nasa.gov/ NASA官网]
+* [https://nssdc.gsfc.nasa.gov/ NASA数据库]（最全的航天数据库）
+* [https://solarsystem.nasa.gov/ NASA·太阳系]（丰富的图片与深空探测资料）
+* [https://nasa.fandom.com/wiki/National_Aeronautics_and_Space_Administration_Wiki NASA维基]（强烈推荐）
+
+专业的天文学百科：
+* [https://www.timeanddate.com/astronomy/night/ Astronomy]（全而详细）
+
+星空模拟图：
+* [https://astronomy.swin.edu.au/cosmos/ timeanddate]（夜空中可见行星模拟图）
+
+航天发射的正确观看方式：
+* 国外：[https://www.youtube.com/c/clearusui 宇推くりあ Rocket stream Vtuber]
+* 文昌：[https://www.bilibili.com/video/BV1ug411h74g 【看发射必点】十分钟带你成为看发射老司机 文昌航天旅游最全攻略 - 哔哩哔哩]与[[博客:文昌观箭指南]]
+* 星港：[https://www.youtube.com/watch?v=aWvHrih-Juk How To Visit STARBASE // A Complete Guide To Seeing Starship!]
+
+更多网站请见下方导航条。
+{{航天资料导航}}
+
+[[分类:帮助]]
+[[分类:卫星百科]][[Category:技术支持]][[Category:航天资料]]

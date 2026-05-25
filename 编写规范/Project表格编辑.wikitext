@@ -1,0 +1,157 @@
+{{指南/编辑者导航}}
+表格编辑是在一些词条编写时必须要用到的。
+
+==基础语法==
+维基表格的基础语法可参阅[[h:help:表格]]。
+
+== 发射记录底纹色号 ==
+
+{| class="wikitable"
+|-
+| align="center" style="background:#90FF90" | 成功
+| align="center" style="background:#FFEE99" | 部分成功
+| align="center" style="background:#FF9090" | 失败/失利/爆炸
+| align="center" style="background:#F0E68C" | 进行中
+| align="center" style="background:#E7E7FF" | 计划
+| align="center" style="background:#ECECEC" | 取消
+| align="center" style="background:#87CEFA" | 不回收
+|-align="center"
+| <kbd>#90FF90</kbd>
+| <kbd>#FFEE99</kbd>
+| <kbd>#FF9090</kbd>
+| <kbd>#F0E68C</kbd><ref group="注">[[:用户:雨伞CKY]]的旧版底纹机器人使用的是对应颜色名，即为<kbd>khaki</kbd>。</ref>
+| <kbd>#E7E7FF</kbd>
+| <kbd>#ECECEC</kbd>
+| <kbd>#87CEFA</kbd>
+|}
+
+<references group="注"/>
+
+==Excel表格转换为维基表格==
+{{Mbox|text=Cockpit 1.3.8版本更新后，新增一个Excel表格到HTML表格的转换工具。您可以直接使用该工具转换。}}
+
+[[file:Excel表格到HTML表格的转换工具.png|center|class=img-fit]]
+Excel表格转换为维基表格的Matlab代码如下：（低版本不支持readcell函数，需要使用Matlab R2019a及以上版本运行）
+    clc;clear;
+    [file,path]= uigetfile( ...
+        {'*.xls;*.xlsx;*.csv'},'Select a File');
+    C=readcell([path,file]);
+    [array,column]=size(C);
+  
+    type=2;
+    switch type
+        case 1
+            lstr='{| class="wikitable"';
+        case 2
+            lstr='{| class="wikitable sortable"';
+        case 3
+            lstr='{| class="wikitable sortable mw-collapsible"';
+        otherwise
+            lstr='{| class="wikitable"';
+    end
+  
+    fid = fopen([path,file(1:end-3),'txt'],'w');
+    fprintf(fid,'%s\n',lstr);
+  
+    for i=1:array
+        fprintf(fid,'|-\n');
+        for j=1:column
+            if ismissing(C{i,j})
+                C{i,j}=' ';
+            end
+            temp=num2str(C{i,j});
+            if i==1
+                if j==1
+                    fprintf(fid,'! %s',temp);
+                else
+                    fprintf(fid,' !! %s',temp);
+                end
+            else
+                if j==1
+                    fprintf(fid,'| %s',temp);
+                else
+                    fprintf(fid,' || %s',temp);
+                end
+            end
+        end
+        fprintf(fid,'\n');
+    end
+    fprintf(fid,'|}\n');
+    fclose(fid);
+在运行后，您会在Excel表格文件存储的文件目录下找到与Excel表格名字相同的txt文件。复制其中内容到源代码编辑器中就可以了。
+
+==维基表格转换为Excel表格==
+维基表格转换为Excel表格的Matlab程序如下：
+    clc;clear;
+    [file,path]=uigetfile('*.txt','Select the txt file');
+    fname=[path,file];
+    fid=fopen(fname);
+    lstr=fgetl(fid);
+    while(~strcmp(lstr(1),'!'))
+        lstr=fgetl(fid);
+    end
+  
+    k=length(lstr);
+    i=2;
+    i0=2;
+    column_num=0;
+    title={};
+    while(i<=k)
+        if (strcmp(join([lstr(i),lstr(i-1)]),'!!'))
+            column_num=column_num+1;    
+            title{column_num}=strtrim(lstr(i0+1:i-2));
+            i0=i;
+            temp=i;
+        end
+        i=i+1;
+    end
+    column_num=column_num+1;
+    title{column_num}=strtrim(lstr(temp+1:k));
+  
+    contex=cell(1,column_num);
+    array_num=0;
+    alarm=0;
+    while(~strcmp(join([lstr(1),lstr(2)]),'|}'))
+        lstr=fgetl(fid);
+        while (length(lstr)<2)
+            lstr=fgetl(fid);
+        end
+  
+        while((~strcmp(join([lstr(1),lstr(2)]),'|-'))&&(~strcmp(join([lstr(1),lstr(2)]),'|}')))
+            i=2;
+            i0=2;
+            column_num=0;
+            array_num=array_num+1;
+            k=length(lstr);
+            while(i<=k)
+                if (strcmp(join([lstr(i),lstr(i-1)]),'||'))
+                    column_num=column_num+1;  
+                    [shu,shishu]=str2num(strtrim(lstr(i0+1:i-2)));
+                    if ~alarm&&shishu
+                    contex{array_num,column_num}=shu;
+                    else
+                    contex{array_num,column_num}=strtrim(lstr(i0+1:i-2));
+                    alarm=0;
+                    end
+                    i0=i;
+                    temp=i;
+                end
+                if (strcmp(lstr(i),'-'))
+                    alarm=1;
+                end
+                i=i+1;
+            end
+            column_num=column_num+1;
+            contex{array_num,column_num}=strtrim(lstr(temp+1:k));
+            lstr=fgetl(fid); 
+        end
+    end
+    fclose(fid);
+  
+    writecell(title,[path,file(1:end-3),'xls']);
+    writecell(contex,[path,file(1:end-3),'xls'],'WriteMode','Append');  
+运行前，您需要将维基表格的源代码保存在一个txt文档中。在运行程序时，需要根据提示选择这个txt文档。在运行后，您会在txt文件存储的文件目录下找到与txt文件名字相同的Excel表格文件。
+
+欢迎您在本页面添加实现类似功能的其他程序语言编写的语句。
+[[分类:帮助]]
+[[Category:卫星百科]]

@@ -1,0 +1,24 @@
+{{#html:MathJaxC}}
+{{#html:MathJaxCalc}}
+
+年：{{MathVar|Y|low=1957|high=2030|highlight=2000}}
+
+月：{{MathVar|M|low=1|high=12|highlight=1}}
+
+日：{{MathVar|D|low=1|high=31|highlight=1}}
+
+时：{{MathVar|h|low=0|high=24|highlight=12}}
+
+分：{{MathVar|m|low=0|high=60|highlight=0}}
+
+秒：{{MathVar|s|low=0|high=60|highlight=0}}
+
+中间变量：{{math|1= a = \mathrm{floor}((14-M)/12)|calc=1|showresult=0}}，{{math|1= y = Y + 4800 - a|calc=1|showresult=0}}，{{math|1= M_0 = M+12*a-3|calc=1|showresult=0}}
+
+只考虑日月年时，儒略日为：{{math|1 = J_0 = D +  \mathrm{floor}((153*M_0 + 2)/5) + 365*y + \mathrm{floor}(y/4) - \mathrm{floor}(y/100) + \mathrm{floor}(y/400) - 32045 |calc=1}}
+
+进一步考虑时分秒，儒略日为：{{math|1 = J_1 = J_0 + (h - 12)/24 + m/1440 + s/86400|calc=1}}
+
+简化儒略日表示为：{{math|1 = J_2 = J_1 - 2400000.5 |calc=1}}
+
+[[Category:公式计算器]]

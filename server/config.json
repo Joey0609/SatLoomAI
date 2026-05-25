@@ -1,0 +1,13 @@
+{
+  "site": {
+    "base_url": "https://sat.huijiwiki.com/",
+    "host": "sat.huijiwiki.com",
+    "scheme": "https",
+    "path": "/"
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 6280,
+    "log_level": "info"
+  }
+}

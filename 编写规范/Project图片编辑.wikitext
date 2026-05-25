@@ -1,0 +1,60 @@
+{{指南/编辑者导航}}
+'''图片编辑'''是维基编辑的重要组成部分。关于图片的完整教程，请见[[h:帮助:图片教程|图片教程]]。以下仅列出要点。
+
+==著作权==
+'''<font color="red">（重要）</font>'''在使用图片前，你需要确保该图片没有版权纠纷。如果你无法确保，请不要使用该图片。有关图片版权的更多信息请参考[[Project:著作权#图像指导|著作权]]。
+
+==上传与插入==
+关于图片的上传与插入，请参考[[h:帮助:图片教程|图片教程]]
+
+==缩略图==
+[[File:main_lightening.jpg|缩略图|NASA科学家确认金星上存在闪电活动]]
+此外，推荐航天器介绍的词条使用缩略图，语法如：
+
+<nowiki>[[File:main_lightening.jpg|缩略图|NASA科学家确认金星上存在闪电活动]]</nowiki>
+
+旁边是效果。
+
+这样做能将图片的介绍文字显示出来，对正文进行最大程度的补充。
+
+==居中图==
+对于不是航天器介绍的词条，则不做此要求。可使用居中格式。语法如：
+
+<nowiki>[[File:姿态1.png|center|300px|空间站内部姿态在不断变化|class=img-fit]]</nowiki>
+
+下方是效果。
+[[File:姿态1.png|center|300px|空间站内部姿态在不断变化|class=img-fit]]
+
+请务必加上“|class=img-fit”，以做到移动端适配。
+
+==画廊==
+不推荐在正文中插入太多图片，如果想展示多张图片请考虑使用'''画廊'''。画廊的使用可参见[[金星15号]]文末。
+
+
+<nowiki><gallery></nowiki>
+
+<nowiki>V_Lakshmi.jpg|拉克希米平原和麦克斯韦山（Lakshmi Planum & Maxwell Montes）</nowiki>
+
+<nowiki>V_Volcano2.jpg|科莱特火山（Colette Patera）</nowiki>
+
+<nowiki>V_Coronae2.jpg|阿纳希特和波罗那环形山（Anahit Corona and Pomona Corona）</nowiki>
+
+<nowiki>V_Arachnoids.jpg|别列金尼亚平原的蛛网膜地形（Arachnoids in Bereghinya Planitia）</nowiki>
+
+<nowiki>V_Crater.jpg|杜坎陨石坑（Meteorite Crater, Duncan）</nowiki>
+
+<nowiki>V_Tessera.jpg|弗图那镶嵌地块（Fortuna Tessera）</nowiki>
+
+<nowiki></gallery></nowiki>
+
+
+下方是效果。
+<gallery>
+V_Lakshmi.jpg|拉克希米平原和麦克斯韦山（Lakshmi Planum & Maxwell Montes）
+V_Volcano2.jpg|科莱特火山（Colette Patera）
+V_Coronae2.jpg|阿纳希特和波罗那环形山（Anahit Corona and Pomona Corona）
+V_Arachnoids.jpg|别列金尼亚平原的蛛网膜地形（Arachnoids in Bereghinya Planitia）
+V_Crater.jpg|杜坎陨石坑（Meteorite Crater, Duncan）
+V_Tessera.jpg|弗图那镶嵌地块（Fortuna Tessera）
+</gallery>
+[[Category:帮助]][[Category:卫星百科]]

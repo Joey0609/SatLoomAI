@@ -1,0 +1,7 @@
+.venv
+.vscode
+huijibot
+__pycache__/
+cache/
+%SystemDrive%
+wikitext_diff/*.html

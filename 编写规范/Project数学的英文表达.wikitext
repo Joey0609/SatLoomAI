@@ -1,0 +1,285 @@
+{{#html:MathJax}}
+'''数学的英文表达'''（English expression of Mathematics）是一个很少人能找到的页面，列出了部分数学符号的常用英文表达。
+
+==四则运算==
+*$ + $： plus
+*$ - $： minus
+*$ \times $： times/ multiplied by
+*$ \div $： divided by/ over
+[[向量乘法]]相关：
+*$ \cdot $：dot product
+*$ \times $：cross product
+
+==括号==
+*$\left( {} \right)$： round bracket
+*$\left[ {} \right]$： square bracket
+*$\left\{ {} \right\}$： bracket
+
+$(a + b)(c + d)$： a plus b, all times bracket c plus d bracket
+
+==大小==
+*$=$： equals/ is equal to
+*$>$： greater than
+*$<$： less than
+*$ \ge $：not less than
+*$ \le $：not greater than
+*$ \approx $：is approximately equal to
+
+==分数==
+*分子：numerator
+*分母：denominator
+
+表达时分子使用基数词，分母使用序数词。或者表示为两个基数词，中间用“over”连接。如：
+
+*$\frac{1}{3}$： one third/ one over three
+*$\frac{\pi }{4}$： pai over four
+
+特殊：分母为2时，用“half”；分母为4时，用“quarter”。在分子不为1时需用复数形式。如：
+
+*$\frac{1}{2}$： one half
+*$\frac{3}{4}$： three quarters/ three over four
+
+==小数与百分数==
+小数直接读作“point”，其后部分可单位读，也可两位连读。
+
+*$7.36$： seven point three six
+*$0.06$： nought/ zero point zero six
+
+百分数在数字后加“percent”（无复数形式）
+*$3\%$： three percent
+
+*舍：round down
+*入：round up
+*取整：round
+
+==比例==
+*$1：27$： one to twenty seven
+
+==幂==
+*平方：squared
+*立方：cubed/ to the third
+*${x^n}$： x to the n''th''/ the n''th'' power of x
+
+==开根==
+*$\sqrt {} $： the root of...
+*<nowiki>$\sqrt[3]{ {}}$： the cubed root of...</nowiki>
+*<nowiki>$\sqrt[n]{ {}}$： the n</nowiki>''th'' root of...
+
+==指数与对数==
+*${e^x}$： exponential rise to x
+*${\log _a}N$： log N to the base a
+
+==集合==
+*集合：set
+*属于：be in
+*子集：subset
+*真子集：proper subset
+*交集：intersection
+*并集：union set
+*差集：different set
+*空集：empty set
+
+==函数==
+*$f(x)$： the function f of x/ f of x/ f(x)
+*<nowiki>${f^{ - 1}}(x)$： inverse f of x</nowiki>
+
+==极限与微积分==
+*$\mathop {\lim }\limits_{x \to 0} f(x)$： the value of f, when x approaches the limit of 0
+
+*$\int\limits_a^b {f(x)\mathrm{d}x} $： the integral between a and b of f(x)
+*<nowiki>$\frac{ {\mathrm{d}y}}{ {\mathrm{d}t}}$： derivative of y with respect to t</nowiki>
+*<nowiki>$\frac{ { {\mathrm{d}^2}y}}{ {\mathrm{d}{t^2}}}$： second order of y with respect to t</nowiki>
+
+==希腊字母表==
+*$\TeX$ 希腊字母与常规字体的希腊字母有些许差异，以如下格式为准。
+*对于AB等与拉丁字母类似的大写表达形式，应以大写英文字母代替。
+{| class="wikitable"
+! colspan="3" |小写
+! colspan="3" |大写
+|-
+!常用
+!$\TeX$
+!英文字母
+!常用
+!$\TeX$
+!英文字母
+|-
+|α
+|$\alpha$
+|alpha
+|Α
+|——
+|A
+|-
+|β
+|$\beta$
+|beta
+|Β
+|——
+|B
+|-
+|γ
+|$\gamma$
+|gamma
+|Γ
+|$\Gamma$
+|Gamma
+|-
+|δ
+|$\delta$
+|delta
+|Δ
+|$\Delta$
+|Delta
+|-
+|ε
+|$\epsilon$
+|epsilon
+|Ε
+|——
+|E
+|-
+|ζ
+|$\zeta$
+|zeta
+|Ζ
+|——
+|Z
+|-
+|η
+|$\eta$
+|eta
+|Ε
+|——
+|E
+|-
+|θ
+|$\theta$
+|theta
+|Θ
+|$\Theta$
+|Theta
+|-
+|ι
+|$\iota$
+|iota
+|Ι
+|——
+|I
+|-
+|κ
+|$\kappa$
+|kappa
+|Κ
+|——
+|K
+|-
+|λ
+|$\lambda$
+|lambda
+|∧
+|$\Lambda$
+|Lambda
+|-
+|μ
+|$\mu$
+|mu
+|Μ
+|——
+|M
+|-
+|ν
+|$\nu$
+|nu
+|Ν
+|——
+|N
+|-
+|ξ
+|$\xi$
+|xi
+|Ξ
+|$\Xi$
+|Xi
+|-
+|ο
+|$\omicron$
+|omicron
+|Ο
+|——
+|O
+|-
+|π
+|$\pi$
+|pi
+|∏
+|$\Pi$
+|Pi
+|-
+|ρ
+|$\rho$
+|rho
+|Ρ
+|——
+|R
+|-
+|σ
+|$\sigma$
+|sigma
+|∑
+|$\Sigma$
+|sigma
+|-
+|τ
+|$\tau$
+|tau
+|Τ
+|——
+|T
+|-
+|υ
+|$\upsilon$
+|upsilon
+|Υ
+|$\Upsilon$
+|Upsilon
+|-
+|φ
+|$\phi$
+|phi
+|Φ
+|$\Phi$
+|Phi
+|-
+|χ
+|$\chi$
+|chi
+|Χ
+|——
+|X
+|-
+|ψ
+|$\psi$
+|psi
+|Ψ
+|$\Psi$
+|Psi
+|-
+|ω
+|$\omega$
+|omega
+|Ω
+|$\Omega$
+|Omega
+|}
+
+==其他==
+*共轭对：conjugate pair
+*$\infty $： infinity
+*$\hat a$： vector a
+*$\sum {} $： sigma
+*$\prod {} $： pai
+
+[[Category:基础数理]]
+[[Category:帮助]]
+[[Category:技术支持]]

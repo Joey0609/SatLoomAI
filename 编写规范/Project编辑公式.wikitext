@@ -1,0 +1,33 @@
+{{指南/编辑者导航}}
+卫星百科支持MathJax和KaTeX两种数学公式引擎。若在编辑词条时需要编辑公式，则可在词条开头注明“<pre><nowiki>{{#Html:MathJax}}</nowiki></pre>”或“<pre><nowiki>{{#Html:KaTeX}}</nowiki></pre>”。具体编辑公式时，可使用多款数学公式编辑软件进行编辑。在熟练后，甚至可直接输入公式对应的代码。
+
+下面以MathType为例，演示如何在卫星百科里书写公式。
+
+==MathType==
+MathType为常用的公式处理软件。在此提供它的下载方式：
+
+请点击[https://pan.baidu.com/s/1yjQGtpGeFoZ7Hqh2ZMvQHA 这里]，提取码为a6hr。<s>破解程序含在压缩包里。</s>
+
+==公式扒取==
+公式可在MathType中手动编辑，可也使用其他软件粘贴至MathType中。有时，文献中已有公式，而手动输入效率太低。这时可以考虑使用[https://mathpix.com/ Mathpix snipping Tool]进行扒取。
+
+该工具能识别打印或者手写的公式，并将其转换至MathType能读出的标准公式形式。软件的使用是免费的，但每个账号每个月有识图数量限制。
+
+==MathType设置==
+打开MathType，选择菜单栏上的“Preferences”。选择“Cut and copy Preferences...”。
+[[File:公式书写2.png|center|530px|class=img-fit|MathType界面]]
+在弹出界面按下图设置。
+[[File:公式书写3.png|center|400px|class=img-fit|MathType选项]]
+确认后，即可在MathType中编辑。编辑完成后，复制所需公式。该公式即转化为MathJax数学公式引擎能认出的代码。
+
+==源代码编辑器==
+将公式对应代码粘贴至对应词条的源代码编辑器内。若需要公式换行居中，则不用更改代码。若需要公式紧接着文字书写，则需将代码首尾的“\[”和“]\”均换为"$"。
+
+有时代码会出现如下的紫色或橙色标识：
+[[File:公式书写1.png|center|800px|class=img-fit|代码问题]]
+这是因为部分代码被编辑器认成了模板。一般，这样的标识不会影响最终生成结果。在少数会影响的情况下，可在“{”符号后加空格，则颜色标识会逐步消失。
+
+==示例==
+公式编辑的例子，可见[[数学的英文表达]]。
+
+[[Category:帮助]][[Category:卫星百科]][[Category:技术支持]]

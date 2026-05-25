@@ -1,0 +1,605 @@
+这里罗列了所有'''非航天系统'''（即，不属于卫星、运载火箭、空间站、深空探测器、载人飞船、发射场、机构、支持设施）的词条，并使中英文形成对照。
+
+==控制理论==
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|-
+! 中文名 !! 英文名 !!	常用别称（如果有）
+|-
+| [[半负定函数]] || semi-negative definite function
+|-
+| [[半正定函数]] || semi-positive definite function
+|-
+| [[负定函数]] || negative definite function
+|-
+| [[正定函数]] || positive definite function
+|-
+| [[渐进稳定]] || Asymptotic Stability ||
+|-
+| [[拉格朗日稳定]] || Lagrange Stability ||
+|-
+| [[李雅普诺夫稳定]] || Lyapnov Stability ||
+|-
+| [[全域稳定]] || Global Stability ||
+|-
+| [[普适系统控制]] || Control of General Mechanical System ||
+|-
+| [[邻域]] || Neighborhood ||
+|-
+| [[运动方程]] || Equations of motion ||
+|-
+| [[状态空间]] || State space ||
+|-
+| [[状态向量]] || State vector ||
+|-
+|}
+
+==天文学==
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|-
+! 中文名 !! 英文名 !!	常用别称（如果有）
+|-
+| [[空间]] || Space || 太空
+|-
+| [[太阳系]] || Solar System || 
+|-
+| [[范艾伦带]] || Van Allen radiation belts ||
+|-
+| [[赤道]] || Equator || equatorial
+|-
+| [[黄道]] || Ecliptic || heliocentric orbit
+|-
+| [[哈雷彗星]] || Halley || Halley's comet, 1P
+|-
+| [[火卫一]] || Phobos ||
+|-
+| [[火卫二]] || Deimos ||
+|-
+| [[火星]] || Mars ||
+|-
+| [[金星]] || Venus ||
+|-
+| [[儒略日]] || Julian Day ||
+|-
+| [[世界时]] || Universal Time || UT, UTC
+|-
+| [[太阳会合]] || Solar Conjunction || 
+|-
+| [[星历]] || Ephemeris ||
+|-
+| [[地球]] || Earth ||
+|-
+| [[天文单位]] || Astronomical unit || AU
+|-
+| [[太阳日]] || Solar day || Sol
+|-
+| [[水星]] || Mercury ||
+|-
+| [[月球]] || the Moon ||
+|-
+| [[光年]] || Light year || ly 或 l.y.
+|-
+| [[秒差距]] || parsec || pc
+|-
+| [[国际天文学联合会]] || International Astronomical Union || IAU 或 天文学联盟
+|-
+| [[木星]] || Jupiter ||
+|-
+| [[土星]] || Saturn ||
+|-
+| [[天王星]] || Uranus ||
+|-
+| [[海王星]] || Neptune ||
+|-
+| [[冥王星]] || Pluto ||
+|-
+| [[卡戎]] || Charon || 查戎
+|-
+| [[木卫一]] || Io || 艾奥
+|-
+| [[木卫二]] || Europa || 欧罗巴
+|-
+| [[木卫三]] || Ganymede || 盖尼米德
+|-
+| [[木卫四]] || Callisto || 卡利斯托、卡里斯托
+|-
+| [[土卫一]] || Mimas || 米玛斯
+|-
+| [[土卫二]] || Enceladus || 
+|-
+| [[土卫三]] || Tethys || 特提斯
+|-
+| [[土卫四]] || Dione ||
+|-
+| [[土卫五]] || Rhea ||
+|-
+| [[土卫六]] || Titan || 泰坦
+|-
+| [[土卫七]] || Hyperion || 海伯利安
+|-
+| [[土卫八]] || Iapetus ||
+|-
+| [[土卫九]] || Phoebe || 菲比
+|-
+| [[天卫一]] || Ariel || 
+|-
+| [[天卫二]] || Umbriel || 
+|-
+| [[天卫三]] || Titania || 
+|-
+| [[天卫四]] || Oberon || 
+|-
+| [[天卫五]] || Miranda || 
+|-
+| [[海卫一]] || Triton || 
+|-
+| [[谷神星]] || Ceres || 
+|-
+| [[灶神星]] || Vesta || 
+|-
+| [[爱神星]] || Eros ||
+|-
+| [[爱达]] || Ida || 艾达
+|-
+| [[玛蒂尔德]] || Mathilde || 
+|-
+| [[智神星]] || Pallas || 
+|-
+| [[婚神星]] || Juno ||
+|-
+| [[糸川]] || Itokawa || 
+|-
+| [[妊神星]] || Haumea ||
+|-
+| [[鸟神星]] || Makemake || 
+|-
+| [[阋神星]] || Eris ||
+|-
+| [[司琴星]] || Lutetia || 卢西亚
+|-
+| [[太田原星]] || Otawara
+|-
+| [[香女星]] || Eugenia
+|-
+| [[西瓦星]] || Siwa
+|-
+| [[艳后星]] || Kleopatra
+|-
+| [[伊卡洛斯]] || Icarus
+|-
+| [[阿波罗群]] || Apollo Group ||阿波罗小行星，Apollo Asteroids 
+|-
+| [[艾滕群]] || Aten Group || 	Aten Asteroids
+|-
+| [[阿默尔群]] || Amor Group ||阿摩尔群，Amor Asteroids
+|-
+| [[近地小行星]] || 	Near Earth Asteroids || NEA, NEAs
+|-
+| [[地理星]] || Geographos ||
+|-
+| [[阿波罗]] || Apollo ||
+|-
+| [[凯龙星]] || Chiron || 凯龙，95P
+|-
+| [[希普卡]] || Shipka ||
+|-
+| [[罗达里]] || Rodari ||
+|-
+| [[半人马天体]] || Centaur object ||
+|-
+| [[施泰因斯]] || Steins ||
+|-
+| [[麦克奥利夫]] || McAuliffe ||
+|-
+| [[米米斯特罗贝尔]] || Mimistrobell ||
+|-
+| [[卡斯塔利亚]] || Castalia ||
+|-
+| [[安妮弗兰克]] || AnneFrank ||
+|-
+| [[阿林达群]] || Alinda group ||
+|-
+| [[布拉叶]] || Braille || 布莱叶
+|-
+| [[贝努]] || Bennu ||
+|-
+| [[小行星]] || Asteroid || Minor planet
+|-
+| [[行星]] || Planet ||
+|-
+| [[自然卫星]] || Natural satellite || Moon
+|-
+| [[矮行星]] || Dwarf planet ||
+|-
+| [[特洛伊族]] || Trojan ||
+|-
+| [[彗星]] || Comet ||
+|-
+| [[柯伊伯带]] || Kuiper belt ||
+|-
+| [[奥尔特云]] || Oort Cloud ||
+|-
+| [[小行星带]] || Asteroid belt ||
+|-
+| [[柯伊伯带天体]] || Kuiper Belt object || KBO
+|-
+| [[跨海王星天体]] || trans-Neptunian object || TNO
+|-
+| [[恩克彗星]] || Encke || 2P
+|-
+| [[比拉彗星]] || Biela || 3D
+|-
+| [[坦普尔1号彗星]] || Tempel 1 || 9P
+|-
+| [[布洛利彗星]] || Borrelly || 19P
+|-
+| [[哈特雷2号彗星]] || Hartley 2 || 103P
+|-
+| [[丘里乌莫夫-格拉西缅科彗星]] || Churyumov-Gerasimenko || 67P
+|-
+| [[威尔德2号彗星]] || Wild 2 || 81P，	维尔特2号彗星
+|-
+| [[坦普尔-塔特尔彗星]] || Tempel-Tuttle || 55P
+|-
+| [[奥陌陌]] || ʻOumuamua || Oumuamua
+|-
+| [[威尔逊-哈林顿]] || Wilson-Harrington || 107P
+|-
+| [[施瓦斯曼-瓦茨曼3号彗星]] || Schwassmann-Wachmann 3 || 73P
+|-
+| [[科霍特克彗星]] || Kohoutek || 75D
+|-
+| [[维特南彗星]] || Wirtanen || 46P
+|-
+| [[流星]] || Meteor || 
+|-
+| [[流星雨]] || Meteor shower|| 
+|-
+| [[流星体]] || Meteoroid || 
+|-
+| [[陨石]] || Meteorite ||
+|-
+|}
+
+==轨道力学==
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|-
+! 中文名 !! 英文名 !!	常用别称（如果有）
+|-
+| [[半长轴]] || semi major axis || a
+|-
+| [[半通径]] || semi latus rectum || p
+|-
+| [[低地球轨道]] || Low Earth orbit || LEO；近地轨道
+|-
+| [[第一宇宙速度]] || First cosmic velocity || 环绕速度；航天器最小发射速度；航天器最大运行速度
+|-
+| [[第二宇宙速度]] || Second cosmic velocity || 逃逸速度
+|-
+| [[第三宇宙速度]] || Third cosmic velocity || 脱离速度
+|-
+| [[第四宇宙速度]] || Fourth cosmic velocity ||
+|-
+| [[第五宇宙速度]] || Fifth cosmic velocity ||
+|-
+| [[第六宇宙速度]] || sixth cosmic velocity ||
+|-
+| [[动能]] || kinetic energy ||
+|-
+| [[二体问题]] || the two body problem || 
+|-
+| [[发射能量]] || launch energy || c<sub>3</sub>
+|-
+| [[飞行方向角]] || Flight direction angle || γ
+|-
+| [[飞行路径角]] || Flight path angle || γ′
+|-
+| [[刚体]] || Rigid body ||
+|-
+| [[轨道力学]] || Orbital mechanics ||
+|-
+| [[轨道根数]] || Orbital factors ||
+|-
+| [[轨道倾角]] || Inclination || i
+|-
+| [[轨道速度分解]] || Orbital velocity decomposition ||
+|-
+| [[霍曼转移]] || Hohmann transfer ||
+|-
+| [[基本椭圆]] || Basic ellipse ||
+|-
+| [[角动量]] || Angular momentum || h, H
+|-
+| [[近心点辐角]] || Argument of periapsis || ω
+|-
+| [[近心点经度]] || Longitude of periapsis || 
+|-
+| [[开普勒三定律]] || Kepler's laws ||
+|-
+| [[开普勒方程]] || Kepler's equation ||
+|-
+| [[拉格朗日点]] || Lagrange points || 平动点; libration points; L-points
+|-
+| [[拉格朗日系数法]] || Lagrange coefficient method ||
+|-
+| [[兰伯特定理]] || Lambert Theorem ||
+|-
+| [[兰伯特问题]] || Lambert's problem ||
+|-
+| [[离心率]] || Eccentricity || e
+|-
+| [[偏近点角]] || Elliptic anomaly || E
+|-
+| [[平近点角]] || Mean anomaly || M
+|-
+| [[平经度]] || Mean longitude || L
+|-
+| [[三体问题]] || Three body problem ||
+|-
+| [[升交点经度]] || Longitude of ascending node || Ω
+|-
+| [[升交线]] || Ascending node ||
+|-
+| [[双椭圆转移]] || Bi-elliptical transfer ||
+|-
+| [[双正切轨道]] || Double tangential orbit ||
+|-
+| [[同圆轨道相位调整]] || Phase adjustment of the identical circular orbit ||
+|-
+| [[万有引力定律]] || Law of universal gravitation ||
+|-
+| [[纬度辐角]] || Argument of latitude || u
+|-
+| [[星历]] || Ephemeris ||
+|-
+| [[引力势能]] || Gravitational potential energy ||
+|-
+| [[真近点角]] || True anomaly || ϕ
+|-
+| [[中高度地球轨道]] || Medium Earth orbit || MEO
+|-
+| [[中心天体引力常数]] || Gravitational constant of center body || μ
+|-
+| [[万有引力常数]] || Gravitational constant || G
+|-
+| [[最小能量轨道]] || Minimum energy orbit ||
+|-
+| [[最优单脉冲转移]] || Optimal monopulse transfer ||
+|-
+| [[最优双脉冲转移]] || Optimal dipulse transfer ||
+|-
+| [[坐标系]] || Frame || 
+|-
+| [[高偏心率椭圆轨道]] || Highly Elliptical Orbit || HEO
+|-
+| [[地球同步轨道]] || Geosynchronous Orbit || GSO
+|-
+| [[半同步轨道]] || Semi-synchronous orbit ||
+|-
+| [[地球同步转移轨道]] || Geosynchronous Transfer Orbit; Geostationary Transfer Orbit || GTO
+|-
+| [[超同步转移轨道]] || Super-Synchronous Transfer Orbit || SSTO
+|-
+| [[对地静止轨道]] || geostationary orbit || GEO；地球静止轨道
+|-
+| [[编队飞行]] || Spacecraft Formation Flying || SFF
+|-
+| [[卫星星座]] || Satellite Constellation ||
+|-
+| [[星下点轨迹]] || track of subsatellite point|| ground track；地面轨迹
+|-
+| [[太阳同步轨道]] || Sun-synchronous orbit; heliosynchronous orbit || SSO
+|-
+| [[晕轨道]] || Halo Orbit || Halo轨道；晕轮轨道；光晕轨道
+|-
+| [[李萨如轨道]] || Lissajous Orbit || 李萨茹轨道；利萨如轨道；Lissajous轨道；李沙育轨道
+|-
+| [[闪电轨道]] || Molniya Orbit || 莫尼亚轨道；Molniya轨道
+|-
+| [[密切轨道]] || Osculating orbit ||
+|-
+| [[轨道保持]] || orbit keeping || 轨道静止保持；Orbital station-keeping
+|- 
+| [[轨道机动]] || orbit maneuver || orbital maneuver; burn
+|- 
+| [[希尔方程]] || Hill equation || Clohessy-Wiltshire equation； C-W方程
+|-
+| [[引力弹弓效应]] || Gravity assist ||
+|-
+| [[银心轨道]] || Galactocentric orbit ||
+|-
+| [[日心轨道]] || Heliocentric orbit || 环日轨道；circumsolar orbit
+|-
+| [[地心轨道]] || Geocentric orbit || 绕地轨道；Earth Orbit
+|-
+| [[月球轨道]] || Lunar orbit || 环月轨道；selenocentric orbit
+|-
+| [[火星环绕轨道]] || areocentric orbit || 环火轨道
+|-
+| [[高地球轨道]] || High Earth Orbit || HEO
+|-
+| [[倾斜轨道]] || Inclined orbit ||
+|-
+| [[极轨道]] || Polar Orbit || 极地轨道
+|-
+| [[非倾斜轨道]] || Non-inclined orbit ||
+|-
+| [[黄道轨道]] || Ecliptic orbit ||
+|-
+| [[赤道轨道]] || Equatorial orbit ||
+|-
+| [[近赤道轨道]] || Near equatorial orbit ||
+|-
+| [[顺行轨道]] || Prograde orbit || 前进轨道
+|-
+| [[逆行轨道]] || Retrograde orbit
+|-
+| [[圆轨道]] || Circular Orbit || 圆形轨道
+|-
+| [[椭圆轨道]] || Elliptic orbit || elliptical orbit
+|-
+| [[弹道捕获轨道]] || Ballistic capture orbit ||
+|-
+| [[霍曼转移轨道]] || Hohmann transfer orbit ||
+|-
+| [[双曲线轨道]] || Hyperbolic orbit ||
+|-
+| [[抛物线轨道]] || Parabolic orbit ||
+|-
+| [[逃逸轨道]] || Escape orbit ||
+|-
+| [[捕获轨道]] || Capture orbit ||
+|-
+| [[径向轨道]] || Radial orbit ||
+|-
+| [[径向椭圆轨道]] || Radial elliptic orbit ||
+|-
+| [[径向双曲线轨道]] || Radial hyperbolic orbit ||
+|-
+| [[径向抛物线轨道]] || Radial parabolic orbit ||
+|-
+| [[苔原轨道]] || Tundra Orbit ||
+|-
+| [[同步轨道]] || Synchronous orbit ||
+|-
+| [[火星同步轨道]] || Areosynchronous orbit || ASO
+|-
+| [[对火静止轨道]] || Areostationary orbit || AEO；火星静止轨道；areosynchronous equatorial orbit；火星同步赤道轨道
+|-
+| [[次同步轨道]] || Subsynchronous orbit || 亚同步轨道
+|-
+| [[超同步轨道]] || Supersynchronous orbit ||
+|-
+| [[箱形轨道]] || Box orbit || 盒型轨道；盒子轨道；boxlet
+|-
+| [[金字塔轨道]] || Pyramid orbit ||
+|-
+| [[管轨道]] || Tube orbit ||
+|-
+| [[冻结轨道]] || Frozen orbit ||
+|-
+| [[月轨特性轨道]] || Orbit of the Moon ||
+|-
+| [[超低地球轨道]] || Beyond-low Earth orbit || beyond Earth orbit; BLEO; BEO
+|-
+| [[近直线晕轨道]] || Near-rectilinear halo orbit || NRHO
+|-
+| [[远距离逆行轨道]] || Distant retrograde orbit || DRO
+|-
+| [[衰减轨道]] || Decaying Orbit || 
+|-
+| [[地球追踪轨道]] || Earth-trailing orbit ||
+|-
+| [[坟场轨道]] || Graveyard orbit || junk orbit; disposal orbit; 墓地轨道；死亡轨道；坟地轨道;垃圾轨道
+|-
+| [[停泊轨道]] || parking orbit ||
+|-
+| [[重复轨道]] || Repeat Orbit ||
+|-
+| [[转移轨道]] || Transfer orbit ||
+|-
+| [[地月转移轨道]] || Lunar Transfer Orbit || LTO; Trans-Lunar Injection; TLI; 月球转移轨道
+|-
+| [[火星转移轨道]] || Mars transfer orbit || MTO; trans-Mars injection; TMI; 地火转移轨道
+|-
+| [[马蹄形轨道]] || Horseshoe orbit ||
+|-
+| [[共振轨道]] || resonant orbit || Orbital resonance
+|-
+| [[P/2轨道]] || P/2 orbit ||
+|}
+
+==姿态力学==
+12种欧拉角序列（Euler angle sequence）因为高度相似，没有在表中列出。
+{{模板:姿态力学}}
+
+==热控制==
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|-
+! 中文名 !! 英文名 !!	常用别称（如果有）
+|-
+| [[空间]] || Space || 太空
+|-
+| [[几何反照率]] || Geometric albedo ||
+|-
+| [[太阳常数]] || Solar constant ||
+|-
+| [[球面反照率]] || Bond albedo || 邦德反照率、半球反射率
+|-
+| [[热控涂层]] || Thermal control coating ||
+|-
+| [[隔热材料]] || Thermal insulation material ||
+|-
+| [[多层隔热材料]] || Multilayer insulation material ||
+|-
+| [[相变材料]] || Phase change materials ||
+|-
+| [[导热填料]] || Thermal conductive filler ||
+|-
+| [[热管]] || Heat pipe ||
+|-
+| [[电加热器]] || Electric heater ||
+|-
+| [[热控百叶窗]] || Thermal control louver ||
+|-
+| [[热控旋转盘]] || Thermal control rotating disk ||
+|-
+| [[斯特藩-玻尔兹曼定律]] || Stefan-Boltzmann law || 斯忒藩-玻尔兹曼定律
+|-
+| [[致冷机]] || Refrigerator || 制冷机
+|-
+| [[热控簧片]] || Thermal reed ||
+|-
+| [[接触式热开关]] || Contact thermal switch ||
+|-
+| [[可控热管]] || Controllable heat pipe ||
+|-
+| [[流体循环热控系统]] || Fluid circulation thermal control system ||
+|-
+| [[珀耳帖效应]] || 	Peltier effect  || 帕尔帖效应
+|-
+| [[塞贝克效应]] || 	Seebeck effect ||
+|-
+| [[热辐射肋片]] || 	Heat radiation rib ||
+|-
+| [[热电制冷]] || Thermoelectric refrigeration || 热电致冷
+|-
+| [[焦耳-汤姆逊制冷]] || Joule Thomson refrigeration || J-T制冷，焦耳-汤姆逊致冷
+|-
+| [[相变制冷]] || Phase change refrigeration || 相变致冷
+|-
+| [[热计算‎‎]] || Thermal calculation || 
+|-
+| [[节点网络法]] || Node network ||
+|-
+| [[热设计]] || Thermal design || 
+|-
+| [[热模拟试验]] || Thermal simulation test || 	热平衡试验
+|-
+| [[傅里叶定律]] || Fourier’s Law of Heat Conduction || 傅里叶热传导定律
+|-
+| [[热控制‎‎]] || Thermal control || 热控
+|-
+| [[热力学基本定律]] || Basic laws of thermodynamics ||
+|-
+|}
+
+==其他==
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|-
+! 中文名 !! 英文名 !!	常用别称（如果有）
+|-
+| [[卫星百科]] || SatWiki ||
+|-
+| [[航天吧]] ||  ||
+|-
+| [[叉乘矩阵]] || Tilde matrix ||
+|-
+| [[迹]] || Trace ||
+|-
+| [[向量乘法]] || Production of vectors ||
+|-
+| [[数学的英文表达]] || English expression of Mathematics ||
+|-
+|}
+
+[[分类:卫星百科]][[分类:技术支持]]

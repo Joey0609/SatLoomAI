@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本项目按需求明文保存，但建议不要提交到版本库
+credentials.json
+
+# 运行时日志
+*.log
