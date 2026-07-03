@@ -5,6 +5,7 @@ from pathlib import Path
 from fastapi import Request
 
 from app.core.config import AppConfig, Credentials, load_app_config, load_credentials
+from app.services.pagelist import PageListService
 from app.wiki.client import WikiClientManager, WikiRequestContext
 
 
@@ -46,3 +47,17 @@ def get_wiki_manager(request: Request) -> WikiClientManager:
     mgr = WikiClientManager(cfg.site, creds, WikiRequestContext())
     request.app.state.wiki = mgr
     return mgr
+
+
+def get_pagelist_service(request: Request) -> PageListService:
+    svc: PageListService | None = getattr(request.app.state, "pagelist_service", None)
+    if svc is not None:
+        return svc
+
+    # 如果服务尚未初始化（非启动后首次调用），使用 wiki 构建
+    wiki = get_wiki_manager(request)
+    from app.services.pagelist import PageListService as _PLS
+
+    svc = _PLS(wiki)
+    request.app.state.pagelist_service = svc
+    return svc

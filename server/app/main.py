@@ -7,10 +7,11 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from app.api.routers import admin, categories, files, pages, site, tools
+from app.api.routers import admin, categories, files, pages, pagelist, site, tools
 from app.core.config import load_app_config, load_credentials
 from app.core.errors import AppError
 from app.core.logging import log_info, setup_logging, log_error
+from app.services.pagelist import PageListService
 from app.wiki.client import WikiClientManager, WikiRequestContext
 
 logger = logging.getLogger(__name__)
@@ -55,6 +56,11 @@ def create_app(server_dir: Path) -> FastAPI:
     except Exception as exc:
         log_error("WIKI", f"启动时 Wiki 连接校验失败：{exc}")
 
+    # 启动页面列表缓存（自动检查缓存有效期并重新拉取）
+    pagelist_svc = PageListService(mgr)
+    app.state.pagelist_service = pagelist_svc
+    pagelist_svc.ensure_fresh()
+
     @app.get("/health")
     def health():
         return {"ok": True}
@@ -80,5 +86,6 @@ def create_app(server_dir: Path) -> FastAPI:
     app.include_router(site.router)
     app.include_router(admin.router)
     app.include_router(tools.router)
+    app.include_router(pagelist.router)
 
     return app
