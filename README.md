@@ -1,8 +1,8 @@
 # SatLoomAI
 
-**AI 辅助的卫星百科（sat.huijiwiki.com）词条编辑工具链。**
+**AI 辅助的卫星百科（sat.huijiwiki.com）词条编辑工具链和 MCP 服务器。**
 
-SatLoomAI 将 [CodeWhale](https://www.deepseek.com) AI 代理与本地 MediaWiki API 服务结合在一起，实现自动化、可审查的 Wiki 词条编辑工作流。
+SatLoomAI 将 AI Harness 代理与本地 MediaWiki API 服务结合在一起，实现自动化、可审查的 Wiki 词条编辑工作流。
 
 ---
 
@@ -39,9 +39,9 @@ SatLoomAI 将 [CodeWhale](https://www.deepseek.com) AI 代理与本地 MediaWiki
 
 ---
 
-## 使用方法（配合 CodeWhale）
+## 使用方法
 
-这套工具链设计为在 **CodeWhale**（DeepSeek AI 代理环境）中运行。基本流程如下：
+这套工具链设计为在 AI Harness 中运行。基本流程如下：
 
 ### 1. 启动本地 API 服务
 
@@ -60,11 +60,11 @@ pip install -r requirements.txt
 
 服务启动后，访问 `http://127.0.0.1:6280/health` 验证，查看 API 文档请访问 `http://127.0.0.1:6280/docs`。
 
-### 2. 在 CodeWhale 中发起编辑任务
+### 2. 在 AI Harness 中发起编辑任务
 
-在 CodeWhale 对话中向 AI（Brother Whale）提出编辑请求，例如：
+在 AI Harness 对话中向 AI（Brother Whale）提出编辑请求，例如：
 
-> "帮我把卫星百科中「凝视号」的词条更新一下，数据来源是 https://example.com/ning-shi-hao"
+> "帮我把卫星百科中「凝视号」的词条更新一下，数据来源是 https://example.com/ning-shi-hao"（其实也可以把该文件作为一个SKILL）。
 
 ### 3. AI 自动执行编辑流程
 
