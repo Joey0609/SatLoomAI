@@ -4,5 +4,7 @@
 huijibot
 __pycache__/
 cache/
+credentials.json
+server/credentials.json
 %SystemDrive%
 wikitext_diff/*.html

@@ -4,6 +4,18 @@
 
 SatLoomAI 将 [CodeWhale](https://www.deepseek.com) AI 代理与本地 MediaWiki API 服务结合在一起，实现自动化、可审查的 Wiki 词条编辑工作流。
 
+本仓库根目录同时符合 Agent Skill 格式，可作为 `satloom-wiki-editor` 技能仓库安装。入口说明见 [SKILL.md](SKILL.md)。
+
+### 安装为 Codex Skill
+
+将本仓库克隆或复制到 Codex skills 目录，并使用技能名作为目录名：
+
+```powershell
+git clone <仓库地址> "$env:USERPROFILE\.codex\skills\satloom-wiki-editor"
+```
+
+如果使用自定义 `CODEX_HOME`，目标目录改为 `$env:CODEX_HOME\skills\satloom-wiki-editor`。安装后可在对话中调用 `$satloom-wiki-editor`；技能的界面信息位于 `agents/openai.yaml`。
+
 ---
 
 ## 项目结构
@@ -19,8 +31,7 @@ SatLoomAI 将 [CodeWhale](https://www.deepseek.com) AI 代理与本地 MediaWiki
 ├── wikitext_diff/           # Wikitext 差异对比工具
 │   └── aidiff.py            #   生成 HTML 差异报告并打开浏览器
 ├── 编写规范/                 # 26 份卫星百科 Wikitext 规范文件
-├── WIKI_EDIT_GUIDE.md       # AI 编辑操作流程标准
-├── Edit_Rules.md            # 综合编辑规则（从编写规范整理）
+├── WIKI_EDIT_GUIDE.md       # AI 编辑流程与卫星百科综合规则
 └── README.md                # 本文件
 ```
 
@@ -68,7 +79,7 @@ pip install -r requirements.txt
 
 ### 3. AI 自动执行编辑流程
 
-AI 会按照 `WIKI_EDIT_GUIDE.md` 中的标准流程执行：
+AI 会按照 `WIKI_EDIT_GUIDE.md` 中的编辑流程和综合规则执行：
 
 1. **前置检查** — 检查本地服务是否运行，必要时自动启动
 2. **数据获取** — 通过 Firecrawl 抓取外部网页内容

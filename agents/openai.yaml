@@ -1,0 +1,7 @@
+interface:
+  display_name: "SatLoomAI Wiki Editor"
+  short_description: "Research and review satellite Wiki edits"
+  default_prompt: "Use $satloom-wiki-editor to research and prepare a reviewable SatWiki page edit."
+
+policy:
+  allow_implicit_invocation: true
