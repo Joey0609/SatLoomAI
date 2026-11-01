@@ -8,3 +8,5 @@ credentials.json
 server/credentials.json
 %SystemDrive%
 wikitext_diff/*.html
+AGENTS.md
+.playwright-mcp

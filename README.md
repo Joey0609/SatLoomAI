@@ -54,6 +54,18 @@ git clone <仓库地址> "$env:USERPROFILE\.codex\skills\satloom-wiki-editor"
 
 这套工具链设计为在 AI Harness 中运行。基本流程如下：
 
+### 0. 配置你的credentials.json
+
+在 `server/credentials.json` 中配置你的卫星百科账号和密码：
+
+```json
+{
+  "username": "你的用户名",
+  "password": "你的密码"
+}
+```
+你也可以选择向管理索要机器人SatLoomAI的账号及其密码。
+
 ### 1. 启动本地 API 服务
 
 在 `server/` 目录下激活虚拟环境并启动：
