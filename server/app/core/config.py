@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 from app.core.errors import ConfigError
@@ -25,7 +25,7 @@ class ServerConfig:
 @dataclass(frozen=True)
 class Credentials:
     username: str
-    password: str
+    password: str = field(repr=False)
 
 
 @dataclass(frozen=True)
@@ -83,15 +83,72 @@ def load_app_config(server_dir: Path) -> AppConfig:
         ) from exc
 
 
-def load_credentials(server_dir: Path) -> Credentials:
+def load_accounts(server_dir: Path) -> list[Credentials]:
     raw = _read_json(server_dir / "credentials.json")
 
-    try:
-        return Credentials(username=str(raw["username"]), password=str(raw["password"]))
-    except Exception as exc:  # noqa: BLE001
+    if not isinstance(raw, dict):
         raise ConfigError(
-            code="credentials_missing_fields",
-            message="credentials.json 缺少 username/password",
+            code="credentials_invalid_format",
+            message="credentials.json 必须是单账户对象或包含 accounts 列表的对象",
             status_code=500,
-            details={"error": str(exc)},
-        ) from exc
+        )
+
+    # 兼容原来的 {"username": "...", "password": "..."} 格式。
+    accounts = raw.get("accounts") if "accounts" in raw else [raw]
+    if not isinstance(accounts, list) or not accounts:
+        raise ConfigError(
+            code="credentials_invalid_accounts",
+            message="credentials.json 的 accounts 必须是非空列表",
+            status_code=500,
+        )
+
+    result = []
+    for index, account in enumerate(accounts, start=1):
+        if (
+            not isinstance(account, dict)
+            or not isinstance(account.get("username"), str)
+            or not account["username"].strip()
+            or not isinstance(account.get("password"), str)
+            or not account["password"]
+        ):
+            raise ConfigError(
+                code="credentials_missing_fields",
+                message=f"credentials.json 第 {index} 个账户缺少有效的 username/password",
+                status_code=500,
+            )
+        result.append(Credentials(username=account["username"], password=account["password"]))
+    return result
+
+
+def load_credentials(server_dir: Path, *, interactive: bool = False) -> Credentials:
+    accounts = load_accounts(server_dir)
+    if len(accounts) == 1:
+        return accounts[0]
+
+    if not interactive:
+        raise ConfigError(
+            code="credentials_selection_required",
+            message="credentials.json 包含多个账户，请在终端启动服务器并选择登录账户",
+            status_code=500,
+        )
+
+    print("请选择 Wiki 登录账户：")
+    for index, account in enumerate(accounts, start=1):
+        print(f"  {index}. {account.username}")
+
+    while True:
+        try:
+            choice = input(f"账户序号 [1-{len(accounts)}]：").strip()
+        except (EOFError, OSError) as exc:
+            raise ConfigError(
+                code="credentials_selection_required",
+                message="无法读取账户选择，请在交互式终端启动服务器",
+                status_code=500,
+            ) from exc
+        try:
+            index = int(choice)
+        except ValueError:
+            index = 0
+        if 1 <= index <= len(accounts):
+            return accounts[index - 1]
+        print(f"无效的账户序号，请输入 1 到 {len(accounts)}。")

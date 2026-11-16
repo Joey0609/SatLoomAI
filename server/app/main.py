@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 def create_app(server_dir: Path) -> FastAPI:
     cfg = load_app_config(server_dir)
     setup_logging(cfg.server.log_level)
-    creds = load_credentials(server_dir)
+    creds = load_credentials(server_dir, interactive=True)
 
     app = FastAPI(
         title="SatLoomAI Wiki Local Server",
@@ -38,6 +38,7 @@ def create_app(server_dir: Path) -> FastAPI:
     )
 
     app.state.config = cfg
+    app.state.creds = creds
 
     # 启动时输出关键信息
     log_info("SRV", f"服务器启动配置：host={cfg.server.host} port={cfg.server.port}")

@@ -10,7 +10,7 @@
 - `run.py`：启动入口（支持被 API 关闭）
 - `requirements.txt`：依赖
 - `config.json`：站点与端口配置
-- `credentials.json`：账号密码（明文）
+- `credentials.json`：一个或多个账户的账号密码（明文）
 
 ## 创建 venv + 安装依赖（在 server/ 下执行）
 
@@ -28,6 +28,21 @@ pip install -r requirements.txt
 ```powershell
 .venv\Scripts\python.exe run.py
 ```
+
+配置多个账户时，启动后会列出用户名，输入账户序号后再登录并启动服务。输入无效序号会重新询问；无法读取输入时会报错退出。
+
+`credentials.json` 多账户格式：
+
+```json
+{
+  "accounts": [
+    {"username": "账户一", "password": "密码一"},
+    {"username": "账户二", "password": "密码二"}
+  ]
+}
+```
+
+仍兼容旧的单账户格式 `{"username": "账户", "password": "密码"}`。旧格式或 `accounts` 中只有一个账户时直接使用该账户，无需选择。多账户启动需要可输入的终端，支持以上命令和 `start.bat`。
 
 停止（向服务器发送 shutdown 请求，服务器自行关闭）：
 
